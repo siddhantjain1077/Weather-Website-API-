@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather in</h1>
+    <input type="text" id="location" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+
+    <div id="weather-info" style="display: none;">
+      <h2 id="city-name"></h2>
+      <div id="temperature"></div>
+      <div id="description"></div>
+      <div id="details"></div>
+    </div>
+  </div>
+
+  <script src="integrate.js"></script>
+</body>
+</html> 
