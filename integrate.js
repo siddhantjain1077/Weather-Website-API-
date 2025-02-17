@@ -38,13 +38,13 @@ async function getWeather() {
         const description = weatherData[0].WeatherText;
         const humidity = weatherData[0].RelativeHumidity;
         const windSpeed = weatherData[0].Wind.Speed.Metric.Value;
-
+        
         // Display Data
         document.getElementById("city-name").textContent = cityName;
-        document.getElementById("temperature").textContent = `${temperature}°C`;
+        document.getElementById("temperature").textContent = `${temperature}\u00B0C`;
         document.getElementById("description").textContent = description;
         document.getElementById("details").innerHTML = `Humidity: ${humidity}%, Wind Speed: ${windSpeed} km/h`;
-
+        
         document.getElementById("weather-info").style.display = "block";
 
     } catch (error) {
