@@ -6,19 +6,19 @@ A simple web-based weather application that fetches real-time weather details of
 
 Features
 
-Search weather by city name
+1. Search weather by city name
 
-Display temperature, weather description, and additional details
+2. Display temperature, weather description, and additional details
 
-User-friendly interface
+3. User-friendly interface
 
 Technologies Used
 
-HTML
+1. HTML
 
-CSS
+2. CSS
 
-JavaScript
+3. JavaScript
 
 Weather API (e.g., OpenWeatherMap API)
 
