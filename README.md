@@ -1,8 +1,6 @@
-Weather App
+## Weather App
 
-## Live Demo
 You can view the weather app dashboard here: [View on Dashboard](https://siddhantjain1077.github.io/Weather-Website-API-/)
-
 
 A simple web-based weather application that fetches real-time weather details of different cities using an API. Users can enter a city name and retrieve the weather conditions, temperature, and other details.
 
